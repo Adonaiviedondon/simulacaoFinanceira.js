@@ -75,6 +75,8 @@ function ObterRelatorio(valorInvestido,TaxaPorMes,meses,gastos,valorDesejado,val
   console.log("   RELATORIO DAS FINANÇAS   ");
   console.log(`MES:${mesRecente}`);
   console.log(`saldo final investido:${valorMensal}`);
+  console.log(`Total de despesas: R$ ${}`);
+  
 }
 
 console.log(simularInvestimento(valorInvestido,taxaPorMes,meses,gastos))
